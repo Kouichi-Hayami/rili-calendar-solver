@@ -26,7 +26,7 @@ Key goals of this project:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -119,6 +119,6 @@ The program prompts the user **step by step**:
 
 ---
 
-## 📜 License
+## License
 
 This project is intended for educational and personal use.
