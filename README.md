@@ -13,7 +13,7 @@ The solver automatically selects the appropriate puzzle based on user input.
 
 ---
 
-## 📌 Overview
+## Overview
 
 Calendar puzzles are mechanical tiling puzzles where a set of fixed polyomino-like pieces must exactly cover a board, leaving specific cells empty to indicate the current date.
 
@@ -23,18 +23,6 @@ Key goals of this project:
 - Correctness: enumerate **all** valid solutions
 - Clarity: keep algorithm and visualization cleanly separated
 - Usability: interactive browsing instead of console spam
-
----
-
-## ✨ Features
-
-- 🧩 Complete backtracking solver
-- 🔄 Automatic handling of rotations and reflections
-- 📅 Supports Month / Day / (Optional) Weekday
-- 🖼 Interactive visualization with page flipping
-- ⬅️ ➡️ Browse all solutions in a single window
-- 🔤 Calendar labels rendered directly in empty cells
-- 🔕 Silent console output (no debug spam)
 
 ---
 
@@ -51,7 +39,7 @@ Key goals of this project:
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 - Python **3.8+**
 - Dependencies:
@@ -66,7 +54,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 From the project root directory:
 
@@ -76,7 +64,7 @@ python rilie.py
 
 ---
 
-## ⌨️ Interactive Input Flow
+## Interactive Input Flow
 
 The program prompts the user **step by step**:
 
@@ -96,7 +84,7 @@ The program prompts the user **step by step**:
 
 ---
 
-## 🧠 Puzzle Variants
+## Puzzle Variants
 
 ### Standard Puzzle (`rilie`)
 
@@ -113,7 +101,7 @@ The program prompts the user **step by step**:
 
 ---
 
-## 🖼 Visualization
+## Visualization
 
 - All valid solutions are collected first
 - A **single matplotlib window** opens after solving
@@ -122,7 +110,7 @@ The program prompts the user **step by step**:
 
 ---
 
-## 🧩 Algorithm Details
+## Algorithm Details
 
 - Shapes are normalized to `(0, 0)`
 - All unique orientations are generated via rotation and reflection
